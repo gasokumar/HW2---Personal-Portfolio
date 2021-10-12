@@ -52,3 +52,44 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+.content {
+    display:flex;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.About-Me {
+    display: flex;
+    
+}
+.About-Me h2 {
+    float:left;
+    font-size: 40px;
+}
+.vertical {
+    border-left: 2px solid black;
+    height: 200px;
+    position:relative;
+    float: left;
+    left:20px;
+
+            
+}
+.About-Me p {
+    float:right;
+    text-align: left;
+    position:relative;
+    left: 25px;
+    padding:20px;
+    top: 40px;
+    font-size:20px;
+}
+.Work {
+    flex-wrap: wrap;
+}
+
+.Work {
+    float:left;
+    font-size: 40px;
+}
