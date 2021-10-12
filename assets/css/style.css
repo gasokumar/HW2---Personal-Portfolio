@@ -64,9 +64,11 @@ a {
 .content {
     display:flex;
     flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .About-Me {
     display: flex;
@@ -76,7 +78,7 @@ a {
     float:left;
     font-size: 40px;
 }
-.vertical {
+#vertical_1 {
     border-left: 2px solid black;
     height: 200px;
     position:relative;
@@ -88,21 +90,52 @@ a {
 .About-Me p {
     float:right;
     text-align: left;
-    position:relative;
-    left: 25px;
     padding:20px;
+    position:relative;
     top: 40px;
+    left: 25px;
     font-size:20px;
 }
 .Work {
     display:block;
     flex-wrap: wrap;
     float:left;
-    font-size: 40px;
+    font-size: 20px;
 }
 .Contact-Me {
     flex-wrap:wrap;
-    display:block;
-   
+    display:flex;
+    align-items: center;
 
+}
+.Contact-Me h2 {
+    float:left;
+    font-size: 30px;
+}
+
+#vertical_2 {
+    border-left: 2px solid black;
+    height: 200px;
+    position:relative;
+    float: left;
+}
+
+.Contact-Me ul {
+    text-align: left;
+    position:relative;
+    padding:20px;
+    top: 40px;
+}
+.Contact-Me ul li {
+    display: inline-block;
+    margin-left: 40px;
+    position:relative;
+    left: 200px;
+    font-size: 30px;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
