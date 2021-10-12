@@ -78,15 +78,15 @@ a {
     float:left;
     font-size: 40px;
 }
-#vertical_1 {
+/* #vertical_1 {
     border-left: 2px solid black;
     height: 200px;
     position:relative;
     float: left;
-    left:20px;
+    left:20px; */
 
             
-}
+/* } */
 .About-Me p {
     float:right;
     text-align: left;
@@ -105,19 +105,30 @@ a {
 .Contact-Me {
     flex-wrap:wrap;
     display:flex;
-    align-items: center;
+    
 
 }
 .Contact-Me h2 {
     float:left;
     font-size: 30px;
+    width: 100px;
 }
 
-#vertical_2 {
+/* #vertical_2 {
     border-left: 2px solid black;
     height: 200px;
     position:relative;
     float: left;
+    left: 34px; */
+/* } */
+article {
+    border-right: solid 2px;
+    display: flex;
+
+}
+
+article .Content-Heading {
+    flex-direction: column;
 }
 
 .Contact-Me ul {
@@ -125,12 +136,13 @@ a {
     position:relative;
     padding:20px;
     top: 40px;
+    left: 200px;
 }
 .Contact-Me ul li {
     display: inline-block;
     margin-left: 40px;
     position:relative;
-    left: 200px;
+    
     font-size: 30px;
 }
 .footer {
@@ -138,4 +150,9 @@ a {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+.Content-Heading {
+    border-right:2px solid black;
+    display: flex;
+    
 }
