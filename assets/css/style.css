@@ -229,8 +229,8 @@ div {
 
 /* I tried to make it responsive but I couldn't get my cards to scale :( */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .content,
     nav {
       flex-direction: column;
-    }
+    } */
