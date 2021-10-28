@@ -1,96 +1,89 @@
 * {
-    box-sizing:border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
-    padding:20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #A2BCE0;
-    color: #23395d;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis:auto;
-    
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #a2bce0;
+  color: #23395d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: auto;
 }
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
-    position: relative;
-    left: 40px;
-    float: left;
-    top:50px;
+  display: inline-block;
+  font-size: 48px;
+  position: relative;
+  left: 40px;
+  /* float:left; */
+  top: 50px;
 }
 .profile-pic {
-    border-radius: 50%;
-    float: left;
-    height: 25%;
-    width: 25%;
-    max-width:fit-content;
+  border-radius: 50%;
+  float: left;
+  height: 25%;
+  width: 25%;
+  max-width: fit-content;
 }
 .header nav {
-    float: right;
-    font-size: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
+  float: right;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 40px;
-    position:relative;
-    top: 60px;
-    right:25px;
-    
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  top: 60px;
+  right: 25px;
 }
 
 a {
-    color:#23395d;
-
+  color: #23395d;
 }
 
 .background-image {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background: url("../images/Portfolio-Header.jpeg");
-    background-size: cover;
-    background-position: center;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background: url("../images/Portfolio-Header.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .content {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 
 .About-Me {
-    display: flex;
-    
+  display: flex;
 }
 .About-Me h2 {
-    float:left;
-    font-size: 40px;
-    width: -webkit-fill-available;
+  float: left;
+  font-size: 40px;
+  width: -webkit-fill-available;
 }
 
-
-            
-
 .About-Me p {
-    float:right;
-    text-align: left;
-    padding: 30px;
-    position:relative;
-    top: 40px;
-    left: 25px;
-    font-size:20px;
+  float: right;
+  text-align: left;
+  padding: 30px;
+  position: relative;
+  top: 40px;
+  left: 25px;
+  font-size: 20px;
 }
 /* .Work {
     display:block;
@@ -100,136 +93,124 @@ a {
 } */
 
 .Contact-Me {
-    display:flex;
-    padding: 15px;
-    flex-flow:row;
-
-    
-
+  display: flex;
+  padding: 15px;
+  flex-flow: row;
 }
 
 .Contact-section {
-    display: flex;
-    align-items:center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .Contact-Me h2 {
-    
-    font-size: 40px;
-    width: 160px;
-    float:left;
-    justify-content:left;
-    align-self: center;
-    top: 45px;
-
-    
+  font-size: 40px;
+  width: 160px;
+  float: left;
+  justify-content: left;
+  align-self: center;
+  top: 45px;
 }
 
-
-
-
 section .Content-Heading {
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .Contact-Me ul {
-    text-align: left;
-    position:relative;
-    padding:20px;
-    top: 40px;
-    left: 200px;
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  top: 40px;
+  left: 200px;
 }
 .Contact-Me ul li {
-    display: inline-block;
-    margin-left: 40px;
-    position:relative;
-    
-    font-size: 30px;
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+
+  font-size: 30px;
 }
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 .Content-Heading {
-    display: flex;
-
-    
+  display: flex;
 }
 main .portfolio-main {
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content: space-evenly;
-
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .Work h2 {
-float:left;
-padding-right: 16px;
-font: 40px;
+  float: left;
+  padding-right: 16px;
+  font: 40px;
 }
 
 .portfolio-card-large {
-    height: 400px;
-    width: 400px;
-    border-style: solid black;
-    
-    
+  height: 400px;
+  width: 400px;
+  border-style: solid black;
 }
 
-
 div {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .small-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-card img {
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 }
 .portfolio-card {
-    flex: 0 1 calc(25%-1em);
+  flex: 0 1 calc(25%-1em);
 }
 
 .portfolio-card-large p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position:relative;
-    top: 50px;
-    font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  top: 50px;
+  font-size: 25px;
 }
 
 .portoflio-card-large:hover {
-    transform: scale(1.25) perspective(1px)
+  transform: scale(1.25) perspective(1px);
 }
 
-/* @media screen and (min-width: 40em) {
-    .small-cards {
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: red;
+  }
+  /* .small-cards {
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     .portfolio-card {
         flex: 0 1 calc(25% - 1 em)
-    }
-} */
+    } */
+}
 
 /* I tried to make it responsive but I couldn't get my cards to scale :( */
 
-/* @media screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .content,
     nav {
       flex-direction: column;
