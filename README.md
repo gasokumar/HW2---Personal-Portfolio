@@ -1,11 +1,16 @@
 # HW2---Personal-Portfolio
 
-My first project ever, a personal portfolio that will showcase my future work
+My first project ever, a personal portfolio that will showcase my future work.
 
-![image](https://user-images.githubusercontent.com/87357653/137054053-eec81149-b7e7-412c-a99b-d826c2dc3e08.png)
+Featured projects: Portfolio, Moodvie.
 
-![image](https://user-images.githubusercontent.com/87357653/137054197-e197542b-1846-43a8-a7bd-f85012a8d4f8.png)
+![image](https://user-images.githubusercontent.com/87357653/139195915-74f02a2d-eec0-4f40-b28d-a28e4ee80e59.png)
+![image](https://user-images.githubusercontent.com/87357653/139196081-d221bafe-03df-4fe9-a280-5acffbcffcb2.png)
 
 
-Link to deployed app: https://gasokumar.github.io/HW2---Personal-Portfolio/
+
+
+
+
+Link to deployed app: https://gasokumar.github.io/Personal-Portfolio/
 
