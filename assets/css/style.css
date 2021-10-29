@@ -194,8 +194,9 @@ div {
   transform: scale(1.25) perspective(1px);
 }
 
-@media only screen and (max-width: 375px) {
-  body {
+@media only screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 30px;
     background-color: red;
   }
   /* .small-cards {
@@ -209,9 +210,3 @@ div {
 }
 
 /* I tried to make it responsive but I couldn't get my cards to scale :( */
-
-/* @media only screen and (max-width: 768px) {
-    .content,
-    nav {
-      flex-direction: column;
-    } */
