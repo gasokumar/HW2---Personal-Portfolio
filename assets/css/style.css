@@ -194,19 +194,21 @@ div {
   transform: scale(1.25) perspective(1px);
 }
 
-@media only screen and (max-width: 768px) {
+/* A screen at a width of under 768px */
+@media screen and (max-width: 768px) {
   .header h1 {
     font-size: 30px;
-    background-color: red;
   }
-  /* .small-cards {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .portfolio-card {
-        flex: 0 1 calc(25% - 1 em)
-    } */
+
+  .header nav {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .header nav li {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 /* I tried to make it responsive but I couldn't get my cards to scale :( */
